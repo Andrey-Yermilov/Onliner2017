@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Onliner Test Suite" verbose="1">
+    <test name="ArrangeOffersByPriceTest" preserve-order="true">
+        <classes>
+            <class name="tests.ArrangeOffersByPriceTest"/>
+        </classes>
+        <parameter name="searchRequest" value="Bosch WLG2426WOE"/>
+        <parameter name="city" value="minsk"/>
+    </test>
+
+    <test name="AutoBaraholkaSearchTest" preserve-order="true">
+        <classes>
+            <class name="tests.AutoBaraholkaSearchTest"/>
+        </classes>
+        <parameter name="mainMenuTab" value="Автобарахолка"/>
+        <parameter name="minAutoPrice" value="14000"/>
+        <parameter name="maxAutoPrice" value="28000"/>
+        <parameter name="manufacturerAuto1" value="BMW"/>
+        <parameter name="manufacturerAuto2" value="Audi"/>
+        <parameter name="minAutoYear" value="2011"/>
+        <parameter name="maxAutoYear" value="2014"/>
+        <parameter name="maxMileage" value="75000"/>
+    </test>
+
+    <test name="CompareItemsTest" preserve-order="true">
+        <classes>
+            <class name="tests.CompareItemsTest"/>
+        </classes>
+        <parameter name="mainMenuTab" value="Каталог"/>
+        <parameter name="category" value="Электроника"/>
+        <parameter name="section" value="Фото"/>
+        <parameter name="subsection" value="Видеокамеры"/>
+    </test>
+
+    <test name="CurrencyExchangeTest" preserve-order="true">
+        <classes>
+            <class name="tests.CurrencyExchangeTest"/>
+        </classes>
+        <parameter name="exchangeMethod" value="Купить"/>
+        <parameter name="amountOfMoney" value="123456"/>
+        <parameter name="fromCurrency" value="BYN"/>
+        <parameter name="toCurrency" value="EUR"/>
+    </test>
+
+    <test name="ChangePasswordTest" preserve-order="true">
+        <classes>
+            <class name="tests.ChangePasswordTest"/>
+        </classes>
+        <parameter name="typeOfLogin" value="text"/>
+        <parameter name="username" value="andrey_yermolov"/>
+        <parameter name="password" value="qwerty195662"/>
+        <parameter name="typeOfUserProfileTab" value="password"/>
+    </test>
+
+    <test name="AddToBookmarksTest" preserve-order="true">
+        <classes>
+            <class name="tests.AddToBookmarksTest"/>
+        </classes>
+        <parameter name="typeOfLogin" value="text"/>
+        <parameter name="username" value="andrey_yermolov"/>
+        <parameter name="password" value="qwerty195662"/>
+        <parameter name="bookmarksTab" value="Каталог"/>
+        <parameter name="mainMenuTab" value="Каталог"/>
+        <parameter name="category" value="Электроника"/>
+        <parameter name="section" value="Фото"/>
+        <parameter name="subsection" value="Фотоаппараты"/>
+    </test>
+</suite>
