@@ -48,7 +48,7 @@
         </classes>
         <parameter name="typeOfLogin" value="text"/>
         <parameter name="username" value="andrey_yermolov"/>
-        <parameter name="password" value="qwerty195662"/>
+        <parameter name="password" value="qwerty647046"/>
         <parameter name="typeOfUserProfileTab" value="password"/>
     </test>
 
@@ -58,7 +58,7 @@
         </classes>
         <parameter name="typeOfLogin" value="text"/>
         <parameter name="username" value="andrey_yermolov"/>
-        <parameter name="password" value="qwerty195662"/>
+        <parameter name="password" value="qwerty647046"/>
         <parameter name="bookmarksTab" value="Каталог"/>
         <parameter name="mainMenuTab" value="Каталог"/>
         <parameter name="category" value="Электроника"/>
