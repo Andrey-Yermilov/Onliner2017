@@ -37,7 +37,7 @@
             <class name="tests.CurrencyExchangeTest"/>
         </classes>
         <parameter name="exchangeMethod" value="Купить"/>
-        <parameter name="amountOfMoney" value="123456"/>
+        <parameter name="amountOfMoney" value="12345"/>
         <parameter name="fromCurrency" value="BYN"/>
         <parameter name="toCurrency" value="EUR"/>
     </test>
